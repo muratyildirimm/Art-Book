@@ -22,12 +22,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLy-Ks-fIv">
+                                <rect key="frame" x="255" y="594" width="75" height="35"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button"/>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="gLy-Ks-fIv" secondAttribute="bottom" constant="189" id="19V-aY-2eq"/>
                             <constraint firstItem="3Xn-KP-YEn" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="I61-wP-Vcy"/>
+                            <constraint firstItem="gLy-Ks-fIv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="255" id="KoH-Yk-hVE"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gLy-Ks-fIv" secondAttribute="trailing" constant="63" id="LgC-vO-R95"/>
                             <constraint firstItem="3Xn-KP-YEn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Qsw-Ri-bUH"/>
+                            <constraint firstItem="gLy-Ks-fIv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="535" id="XSs-vD-pLG"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -12,6 +12,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     print("design")
+    print("design222")
   }
 
 
